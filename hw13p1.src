@@ -1,34 +1,0 @@
-Script started on 2023-04-25 11:28:34-07:00 [TERM="st-256color" TTY="/dev/pts/1" COLUMNS="115" LINES="50"]
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw13/src]1;..cs1c/hw13/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddate[?1l>[?2004l
-]2;date]1;dateTue Apr 25 11:28:36 AM PDT 2023
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw13/src]1;..cs1c/hw13/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlls -l[?1l>[?2004l
-]2;ls --color=tty -l]1;lstotal 80
--rw-r--r-- 1 nate nate   402 Apr 25 11:27 assert.cpp
--rwxr-xr-x 1 nate nate 26520 Apr 25 11:19 [0m[01;32mhw12[0m
--rw-r--r-- 1 nate nate     0 Apr 25 11:28 hw13p1.src
--rw-r--r-- 1 nate nate  2271 Apr 25 11:27 hw13p2.cpp
--rw-r--r-- 1 nate nate  4041 Apr 25 11:19 hw13p2.scr
--rw-r--r-- 1 nate nate 20480 Apr 25 11:24 [01;31mhw13p2.tar[0m
--rw-r--r-- 1 nate nate   248 Apr 25 11:24 Makefile
--rw-r--r-- 1 nate nate  5247 Apr 25 11:26 queue.hpp
--rw-r--r-- 1 nate nate  5370 Apr 25 11:15 queuep2.hpp
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw13/src]1;..cs1c/hw13/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hgg++ assert.cpp[1m [0m[0m -o assert[?1l>[?2004l
-]2;g++ assert.cpp -o assert]1;g++[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw13/src]1;..cs1c/hw13/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlls -l[?1l>[?2004l
-]2;ls --color=tty -l]1;lstotal 96
--rwxr-xr-x 1 nate nate 15912 Apr 25 11:28 [0m[01;32massert[0m
--rw-r--r-- 1 nate nate   402 Apr 25 11:27 assert.cpp
--rwxr-xr-x 1 nate nate 26520 Apr 25 11:19 [01;32mhw12[0m
--rw-r--r-- 1 nate nate     0 Apr 25 11:28 hw13p1.src
--rw-r--r-- 1 nate nate  2271 Apr 25 11:27 hw13p2.cpp
--rw-r--r-- 1 nate nate  4041 Apr 25 11:19 hw13p2.scr
--rw-r--r-- 1 nate nate 20480 Apr 25 11:24 [01;31mhw13p2.tar[0m
--rw-r--r-- 1 nate nate   248 Apr 25 11:24 Makefile
--rw-r--r-- 1 nate nate  5247 Apr 25 11:26 queue.hpp
--rw-r--r-- 1 nate nate  5370 Apr 25 11:15 queuep2.hpp
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw13/src]1;..cs1c/hw13/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h../assert[1m [0m[0m [?1l>[?2004l
-]2;./assert]1;./assertAssertion passed!
-assert: assert.cpp:14: int main(): Assertion `x == 10' failed.
-[1]    159591 IOT instruction (core dumped)  ./assert
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw13/src]1;..cs1c/hw13/src[0m[27m[24m[J[01;31m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
-]2;exit]1;exit
-Script done on 2023-04-25 11:29:05-07:00 [COMMAND_EXIT_CODE="134"]

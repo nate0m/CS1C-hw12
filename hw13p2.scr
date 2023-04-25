@@ -1,58 +1,0 @@
-Script started on 2023-04-25 11:19:36-07:00 [TERM="st-256color" TTY="/dev/pts/4" COLUMNS="115" LINES="50"]
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw13/src]1;..cs1c/hw13/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddate[?1l>[?2004l
-]2;date]1;dateTue Apr 25 11:19:37 AM PDT 2023
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw13/src]1;..cs1c/hw13/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlls -l[?1l>[?2004l
-]2;ls --color=tty -l]1;lstotal 84
--rwxr-xr-x 1 nate nate 26520 Apr 25 11:15 [0m[01;32mhw12[0m
--rw-r--r-- 1 nate nate  2269 Apr 25 11:16 hw12.cpp
--rw-r--r-- 1 nate nate  7958 Apr 24 09:50 hw12.scr
--rw-r--r-- 1 nate nate 30720 Apr 24 09:50 [01;31mhw12.tar[0m
--rw-r--r-- 1 nate nate     0 Apr 25 11:19 hw13p2.scr
--rw-r--r-- 1 nate nate   240 Apr 24 09:50 Makefile
--rw-r--r-- 1 nate nate  5370 Apr 25 11:15 queue.hpp
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw13/src]1;..cs1c/hw13/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hmmake all[?1l>[?2004l
-]2;make all]1;makeg++     hw12.cpp   -o hw12
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw13/src]1;..cs1c/hw13/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlls -l[?1l>[?2004l
-]2;ls --color=tty -l]1;lstotal 84
--rwxr-xr-x 1 nate nate 26520 Apr 25 11:19 [0m[01;32mhw12[0m
--rw-r--r-- 1 nate nate  2269 Apr 25 11:16 hw12.cpp
--rw-r--r-- 1 nate nate  7958 Apr 24 09:50 hw12.scr
--rw-r--r-- 1 nate nate 30720 Apr 24 09:50 [01;31mhw12.tar[0m
--rw-r--r-- 1 nate nate     0 Apr 25 11:19 hw13p2.scr
--rw-r--r-- 1 nate nate   240 Apr 24 09:50 Makefile
--rw-r--r-- 1 nate nate  5370 Apr 25 11:15 queue.hpp
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw13/src]1;..cs1c/hw13/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h../hw12[1m [0m[0m [?1l>[?2004l
-]2;./hw12]1;./hw12
-*******************************************
-*              Running hw13 p2            *
-*      Programmed by Nathan Milton        *
-*        CS1C Tues/Thurs 1:30pm           *
-*******************************************
-
-checking if queues are empty**
-int queue is empty
-trying to add to empty int queue**
-Error: queue is empty
-
-adding 6 elements to int queue***
-1 
-1 2 
-1 2 3 
-1 2 3 4 
-1 2 3 4 5 
-1 2 3 4 5 6 
-1 2 3 4 5 6 7 
-Error: queue is full
-
-deleteing 8 elements from int queue****
-1 2 3 4 5 6 7 
-2 3 4 5 6 7 
-3 4 5 6 7 
-4 5 6 7 
-5 6 7 
-6 7 
-7 
-Error: queue is empty
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw13/src]1;..cs1c/hw13/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
-]2;exit]1;exit
-Script done on 2023-04-25 11:19:52-07:00 [COMMAND_EXIT_CODE="0"]
