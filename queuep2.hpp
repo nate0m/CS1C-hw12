@@ -3,6 +3,12 @@
 #include <iostream>
 using namespace std;
 
+#ifdef NDEBUG
+    #define ASSERT(expr) ((void)0)
+#else
+    #include <cassert>
+    #define ASSERT(expr) assert(expr)
+#endif
 // queue class to store elements following 
 // the First in, First out structure
 // the first element to be added is 
