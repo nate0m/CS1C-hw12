@@ -304,26 +304,33 @@ int main() {
     cout << "string queue front: " << s << endl;
 
 
-    cout << "coping double queue with constructor*******" << endl;
+    cout << endl;
+    cout << "coping double queue with constructor and string queue with assignment*******" << endl;
     Queue<double> doubleQueue2(doubleQueue);
     Queue<string> stringQueue2;
     stringQueue2 = stringQueue;
     cout << "printing original***" << endl;
     doubleQueue.print();
     stringQueue.print();
+    cout << endl;
     cout << "printing copy***" << endl;
     doubleQueue2.print();
     stringQueue2.print();
+    cout << endl;
 
 
-
-
-
-
-
-
-
-
+    cout << "moving double queue with constructor and string queue with assignment********" << endl;
+    Queue<double> doubleQueue3(std::move(doubleQueue2));
+    Queue<string> stringQueue3;
+    stringQueue3 = std::move(stringQueue2);
+    cout << "printing original***" << endl;
+    //doubleQueue2.print();
+    // stringQueue2.print();
+    cout << "*cant print original cause it has been moved*" << endl;
+    cout << endl;
+    cout << "printing move***" << endl;
+    doubleQueue3.print();
+    stringQueue3.print();
 
     return 0;
 }

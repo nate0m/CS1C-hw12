@@ -1,27 +1,27 @@
-Script started on 2023-04-20 10:56:52-07:00 [TERM="st-256color" TTY="/dev/pts/0" COLUMNS="115" LINES="50"]
+Script started on 2023-04-20 16:53:02-07:00 [TERM="st-256color" TTY="/dev/pts/2" COLUMNS="115" LINES="24"]
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw12/src]1;..cs1c/hw12/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddate[?1l>[?2004l
+]2;date]1;dateThu Apr 20 04:53:03 PM PDT 2023
 [1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw12/src]1;..cs1c/hw12/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlls -l[?1l>[?2004l
-]2;ls --color=tty -l]1;lstotal 52
--rw-r--r-- 1 nate nate  9609 Apr 20 10:56 hw12.cpp
--rw-r--r-- 1 nate nate     0 Apr 20 10:56 hw12.scr
--rw-r--r-- 1 nate nate 30720 Apr 18 13:24 [0m[01;31mhw12.tar[0m
+]2;ls --color=tty -l]1;lstotal 24
+-rw-r--r-- 1 nate nate 10202 Apr 20 16:42 hw12.cpp
+-rw-r--r-- 1 nate nate     0 Apr 20 16:53 hw12.scr
 -rw-r--r-- 1 nate nate   240 Apr 18 13:24 Makefile
--rw-r--r-- 1 nate nate  3397 Apr 20 10:56 queue.hpp
+-rw-r--r-- 1 nate nate  4769 Apr 20 16:52 queue.hpp
 [1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw12/src]1;..cs1c/hw12/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hmmake all[?1l>[?2004l
 ]2;make all]1;makeg++     hw12.cpp   -o hw12
 [1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw12/src]1;..cs1c/hw12/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlls -l[?1l>[?2004l
-]2;ls --color=tty -l]1;lstotal 116
--rwxr-xr-x 1 nate nate 64456 Apr 20 10:57 [0m[01;32mhw12[0m
--rw-r--r-- 1 nate nate  9609 Apr 20 10:56 hw12.cpp
--rw-r--r-- 1 nate nate     0 Apr 20 10:56 hw12.scr
--rw-r--r-- 1 nate nate 30720 Apr 18 13:24 [01;31mhw12.tar[0m
+]2;ls --color=tty -l]1;lstotal 92
+-rwxr-xr-x 1 nate nate 65920 Apr 20 16:53 [0m[01;32mhw12[0m
+-rw-r--r-- 1 nate nate 10202 Apr 20 16:42 hw12.cpp
+-rw-r--r-- 1 nate nate     0 Apr 20 16:53 hw12.scr
 -rw-r--r-- 1 nate nate   240 Apr 18 13:24 Makefile
--rw-r--r-- 1 nate nate  3397 Apr 20 10:56 queue.hpp
-[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw12/src]1;..cs1c/hw12/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hvvalgrind ./hw12[1m [0m[0m [?1l>[?2004l
-]2;valgrind ./hw12]1;valgrind==17723== Memcheck, a memory error detector
-==17723== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==17723== Using Valgrind-3.20.0 and LibVEX; rerun with -h for copyright info
-==17723== Command: ./hw12
-==17723== 
+-rw-r--r-- 1 nate nate  4769 Apr 20 16:52 queue.hpp
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw12/src]1;..cs1c/hw12/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hb vvalgrind ./hw12[1m [0m[0m [?1l>[?2004l
+]2;valgrind ./hw12]1;valgrind==81808== Memcheck, a memory error detector
+==81808== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==81808== Using Valgrind-3.20.0 and LibVEX; rerun with -h for copyright info
+==81808== Command: ./hw12
+==81808== 
 
 *******************************************
 *              Running hw12               *
@@ -181,22 +181,32 @@ double queue is not empty
 finding the front of queues*****
 double queue front: 1.9
 string queue front: seven
-coping double queue with constructor*******
+
+coping double queue with constructor and string queue with assignment*******
 printing original***
 1.9 1.1 1.11 1.12 1.13 1.14 1.15 1.16 1.17 
 seven eight nine ten eleven twelve thirteen fourteen fifthteen sixteen 
+
 printing copy***
 1.9 1.1 1.11 1.12 1.13 1.14 1.15 1.16 1.17 
 seven eight nine ten eleven twelve thirteen fourteen fifthteen sixteen 
-==17723== 
-==17723== HEAP SUMMARY:
-==17723==     in use at exit: 0 bytes in 0 blocks
-==17723==   total heap usage: 8 allocs, 8 frees, 74,900 bytes allocated
-==17723== 
-==17723== All heap blocks were freed -- no leaks are possible
-==17723== 
-==17723== For lists of detected and suppressed errors, rerun with: -s
-==17723== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+moving double queue with constructor and string queue with assignment********
+printing original***
+*cant print original cause it has been moved*
+
+printing move***
+1.9 1.1 1.11 1.12 1.13 1.14 1.15 1.16 1.17 
+seven eight nine ten eleven twelve thirteen fourteen fifthteen sixteen 
+==81808== 
+==81808== HEAP SUMMARY:
+==81808==     in use at exit: 0 bytes in 0 blocks
+==81808==   total heap usage: 9 allocs, 9 frees, 75,228 bytes allocated
+==81808== 
+==81808== All heap blocks were freed -- no leaks are possible
+==81808== 
+==81808== For lists of detected and suppressed errors, rerun with: -s
+==81808== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 [1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCrafty:~/Documents/school/cs1c/hw12/src]1;..cs1c/hw12/src[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  src[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
 ]2;exit]1;exit
-Script done on 2023-04-20 10:58:25-07:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2023-04-20 16:53:31-07:00 [COMMAND_EXIT_CODE="0"]
